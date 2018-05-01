@@ -1,0 +1,349 @@
+
+/*box-sizing*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*clearfix*/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.container {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.site-header{
+	width: 100%;
+	background: #f7d092;
+	border-bottom: 2px dotted #000;
+}
+
+.header-inner {
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.header-inner .site-logo-container {
+	float: left;
+    padding: 25px 0;
+    width: 165px;
+}
+
+.header-inner .site-logo-container img {
+	width:100%; 
+}
+
+.header-inner .site-menu {
+	float: right;
+	margin-top: 65px;
+}
+
+
+.site-menu .menu-list {
+	float: left;
+}
+
+.site-menu .menu-list a {
+	margin: 0 25px;
+	text-decoration: none;
+	color: #774e1f;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	transition: .5s ease-out;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.site-menu .menu-list a:hover {
+	color: #b8dba2;
+}
+
+.main-content {
+	color: #222;
+}
+
+.about {
+    padding: 4% 0;
+	width: 100%;
+	margin: 0 auto;
+	background-image: url("../img/bumps.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-color: #b8dba2;
+}
+
+.about .section-title{
+	max-width: 464px;
+    margin: 0 auto;
+    padding: 128px;
+    text-align: center;
+    background-image: url(../img/SW-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    background-size: 100%;
+}
+
+.about .section-title h3{
+	font-size: 3.5em;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.about-content {
+	padding: 3% 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.about .about-block {
+	float: left;
+}
+
+
+
+
+.about .about-block .product-info-title {
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+	padding: 10% 0;
+	letter-spacing: 2px;
+}
+
+.about .about-block .product-info-text {
+    text-align: center;
+    font-size: 1.45em;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.about .about-block-img {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.about .about-block-text {
+	width: 40%;
+	padding-left: 3%;
+}
+
+
+
+.about .about-block-img img {
+	display: block;
+	width: 100%;
+}
+
+.upper-divider {
+	background-image: url(../img/seaweed-bg1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	letter-spacing: 2px;
+}
+
+.upper-divider .seaweed-description{
+	display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ddd;
+    font-size: 1.1em;
+    padding: 8.5% 0;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.8em;
+}
+
+.flavors {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-top: 3%;
+}
+
+.product-lists .bg {
+	background: #eee;
+}
+
+.product-list {
+    float: left;
+    width: 50%;
+    padding: 2.5%;
+}
+
+.product-list img {
+	display: block;
+	float: left;
+}
+
+.product-list .product-img {
+	width: 50%;
+}
+
+.product-list .product-nf {
+	width: 41%;
+	margin: 0 0 2% 5%;
+}
+
+.ingr, 
+.caution {
+	line-height: 1.1em;
+}
+
+.ingr {
+	margin-top: 35px;
+	font-size: 0.93em;
+}
+
+.caution {
+	margin-top: 10px;
+}
+
+.ingr-bold {
+	font-weight: bold;
+}
+
+
+
+.site-footer {
+	padding: 65px 0;
+	color: #222;;
+}
+
+
+.footer-title {
+	text-align: center;
+}
+
+.footer-title .contact-title {
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 2em;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.contact-info-list a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #222;
+	padding-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+.company-info {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.company-info .delice-logo {
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.company-info .delice-logo img{
+	display: block;
+	width: 100%;
+}
+
+.company-info>span {
+	padding-top: 5px;
+	display: block;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+.company-info .company-name {
+	margin-top: 10px;
+}
+
+.contact-sns-lists {
+	text-align: center;
+}
+
+.sns-list {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+
+.sns-list span{
+	display: block;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 740px) {
+	.site-header {
+		display: none;
+	}
+
+	.about .section-title{
+	max-width: 464px;
+    margin: 0 auto;
+    padding: 128px;
+    text-align: center;
+    background-image: url(../img/SW-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    background-size: 100%;
+	}
+	.about .about-block-img {
+	width: 90%;
+	margin: 0 auto;
+	}
+
+	.about .about-block-text {
+	width: 90%;
+	margin:0 auto;
+	}
+
+	.product-list {
+    padding: 2.5%;
+    float: none;
+	}
+
+	.product-list {
+    width: 95%;
+    margin:0 auto 25px auto;
+    padding: 2.5%;
+	}
+
+	.product-lists .bg {
+	background: none;
+	}
+	.product-list img {
+	display: block;
+	}
+
+	.product-list .product-img {
+	width: 95%;
+	margin: 0 auto 25px auto;
+	}
+
+	.product-list .product-nf {
+	width: 95%;
+	margin: 0 auto 25px auto;
+	}
+
+
+}
